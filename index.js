@@ -4,7 +4,7 @@ const app = express()
 app.use(express.json());
 
 app.get('/',(req,res)=>{
-    res.send("hello there server is running");
+    res.send("hello is home route");
 })
 
 app.listen(3000,()=>{
